@@ -1,0 +1,64 @@
+    :root {
+        --cor-princpal: #FFFFFF;
+        --cor-secundaria: #0288D1;
+        --cor-fundo: #E0F7FA;
+        --cor-conteudo: #212121;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1.6em;
+        padding: 2rem;
+        background: var(--cor-fundo);
+    }
+
+    main {
+        margin: auto;
+        width: 50%;
+        background-color: var(--cor-princpal);
+        border-radius: 5px;
+    }
+
+    main h1 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    form {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    input {
+        width: 350px;
+        height: 60px;
+        outline: none;
+        font-size: 100%;
+        border-radius: 6px;
+    }
+
+    button {
+        width: 100px;
+        background-color: var(--cor-fundo);
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 100%;
+    }
+
+    #msg-erro {
+        font-weight: bold;
+        text-align: center;
+    }
+    .info{
+        display:flex;
+        justify-content: space-between;
+    }
+    #resultado {
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: var(--cor-princpal);
+        color: var(--cor-conteudo);
+        border-radius: 5px;
+        min-width: 90%;
+    }

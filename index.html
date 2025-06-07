@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clima por Cidade</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Consultar Clima</h1>
+        <form>
+            <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+            <button type="button" onclick="exibirResultados()">Buscar</button>
+        </form>
+        <div id="msg-erro"></div>
+        <div id="resultado">
+            <div class="info">
+                <p>Temperatura:</p>
+                <p id="temperatura"></p>
+            </div>
+            <div class="info">
+                <p>Clima:</p>
+                <p id="clima"></p>
+            </div>
+            <div class="info">
+                <p>Umidade:</p>
+                <p id="umidade"></p>
+            </div>
+            <div class="info">
+                <p>Vento:</p>
+                <p id="vento"></p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
