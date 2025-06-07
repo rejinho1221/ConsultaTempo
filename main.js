@@ -1,5 +1,5 @@
 async function buscarClima(cidade) {
-    const apiKey = '04d033d1e38ca079d02eace057120716'; // Substitua pela sua API Key
+    const apiKey = 'SUA_API_KEY'; // Substitua pela sua API Key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(cidade)}&appid=${apiKey}&lang=pt_br&units=metric`;
 
     try {
